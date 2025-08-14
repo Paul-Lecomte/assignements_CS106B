@@ -1,0 +1,16 @@
+
+# Big-O Analysis Answers (Problem 1)
+# ----------------------------------
+# Write the big-O *time* complexities for each function you analyze.
+# If you're following the original CS106B A5, list the function name and its runtime.
+# Example format:
+#
+# Printing Chip / drawN:          O(n^2)
+# Counting Triples / countTriples: O(n^3)
+# Printing Cycles / rotateA:      O(n^2)
+# Printing Cycles / rotateB:      O(n)
+# Recursive Mysteries / riddle1:  O(2^n)
+# Max Single-Sell Profit / brute: O(n^2)
+# Max Single-Sell Profit / linear: O(n)
+#
+# Feel free to add your own functions to the timing harness in src/main.cpp if helpful.
