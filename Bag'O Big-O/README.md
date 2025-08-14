@@ -1,4 +1,3 @@
-
 # CS106B Assignment 5 — Bag'O Big-O (No Stanford Library)
 
 This is a **from-scratch starter** you can use to complete the CS106B *Assignment 5: Bag'O Big-O*
