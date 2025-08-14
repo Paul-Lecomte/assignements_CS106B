@@ -6,19 +6,28 @@
 namespace {
 
 // TODO: Implement a linear-time merge of two sorted vectors (by weight).
-std::vector<DataPoint> mergeSorted(const std::vector<DataPoint>& a,
-                                   const std::vector<DataPoint>& b) {
-    // Hints:
-    // - Do NOT erase() from the front of vectors. Use index/iterator pointers.
-    // - Advance the pointer with the smaller weight each step; push_back to result.
-    // - Preserve all duplicates; tie-break arbitrarily.
-    std::vector<DataPoint> out;
-    out.reserve(a.size() + b.size());
+    std::vector<DataPoint> mergeSorted(const std::vector<DataPoint>& a,
+                                       const std::vector<DataPoint>& b) {
+        std::vector<DataPoint> out;
+        out.reserve(a.size() + b.size());
 
-    // YOUR CODE HERE
+        size_t i = 0, j = 0;
+        while (i < a.size() && j < b.size()) {
+            if (a[i].weight <= b[j].weight) {
+                out.push_back(a[i]);
+                ++i;
+            } else {
+                out.push_back(b[j]);
+                ++j;
+            }
+        }
 
-    return out;
-}
+        // Append leftovers
+        while (i < a.size()) out.push_back(a[i++]);
+        while (j < b.size()) out.push_back(b[j++]);
+
+        return out;
+    }
 
 // Recursively combine runs[lo, hi) into a single sorted vector.
 std::vector<DataPoint> combineRange(const std::vector<std::vector<DataPoint>>& runs,
