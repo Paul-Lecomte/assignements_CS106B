@@ -1,0 +1,3 @@
+C:/Users/lecom/OneDrive/Images/learning/C++/assigenements/Bag'O Big-O/build/CMakeFiles/cs106b_a5.dir
+C:/Users/lecom/OneDrive/Images/learning/C++/assigenements/Bag'O Big-O/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/lecom/OneDrive/Images/learning/C++/assigenements/Bag'O Big-O/build/CMakeFiles/ZERO_CHECK.dir

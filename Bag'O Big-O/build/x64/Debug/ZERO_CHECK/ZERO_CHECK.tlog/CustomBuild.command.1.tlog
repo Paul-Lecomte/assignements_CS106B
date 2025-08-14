@@ -1,0 +1,10 @@
+^C:\USERS\LECOM\ONEDRIVE\IMAGES\LEARNING\C++\ASSIGENEMENTS\BAG'O BIG-O\BUILD\CMAKEFILES\E490E84AC1D5D0EE16DD4A54D4126785\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/lecom/OneDrive/Images/learning/C++/assigenements/Bag'O Big-O" "-BC:/Users/lecom/OneDrive/Images/learning/C++/assigenements/Bag'O Big-O/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/lecom/OneDrive/Images/learning/C++/assigenements/Bag'O Big-O/build/cs106b_a5_no_stanford.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

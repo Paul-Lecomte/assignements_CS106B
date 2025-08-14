@@ -1,0 +1,10 @@
+^C:\USERS\LECOM\ONEDRIVE\IMAGES\LEARNING\C++\ASSIGENEMENTS\BAG'O BIG-O\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/lecom/OneDrive/Images/learning/C++/assigenements/Bag'O Big-O" "-BC:/Users/lecom/OneDrive/Images/learning/C++/assigenements/Bag'O Big-O/build" --check-stamp-file "C:/Users/lecom/OneDrive/Images/learning/C++/assigenements/Bag'O Big-O/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

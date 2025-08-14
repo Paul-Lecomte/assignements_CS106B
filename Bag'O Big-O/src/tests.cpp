@@ -5,7 +5,7 @@
 #include <vector>
 #include <iostream>
 #include "Combine.h"
-#include "Generators.h"
+#include "../include/Generators.h"
 
 // A slow reference used for testing: flatten then sort by weight.
 static std::vector<DataPoint>
@@ -24,6 +24,15 @@ slowBaseline(const std::vector<std::vector<DataPoint>>& runs) {
 
 static void requireEqualByWeight(const std::vector<DataPoint>& a,
                                  const std::vector<DataPoint>& b) {
+    if (a.size() != b.size()) {
+        std::cerr << "Size mismatch! a.size()=" << a.size()
+                  << " b.size()=" << b.size() << "\n";
+        std::cerr << "Output a:\n";
+        for (auto& dp : a) std::cerr << dp << " ";
+        std::cerr << "\nExpected b:\n";
+        for (auto& dp : b) std::cerr << dp << " ";
+        std::cerr << "\n";
+    }
     assert(a.size() == b.size());
     for (size_t i = 0; i < a.size(); ++i) {
         assert(a[i].weight == b[i].weight);

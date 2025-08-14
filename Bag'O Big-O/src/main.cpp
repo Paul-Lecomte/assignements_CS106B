@@ -5,8 +5,8 @@
 #include <string>
 #include <cmath>
 #include "Combine.h"
-#include "Generators.h"
-#include "Timer.h"
+#include "../include/Generators.h"
+#include "../include/Timer.h"
 
 void runTests();
 

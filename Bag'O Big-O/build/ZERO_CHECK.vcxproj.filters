@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lecom\OneDrive\Images\learning\C++\assigenements\Bag'O Big-O\build\CMakeFiles\e490e84ac1d5d0ee16dd4a54d4126785\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{86C639A9-B502-3C0D-B98A-510D80DA2F69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
