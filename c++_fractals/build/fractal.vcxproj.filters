@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\lecom\OneDrive\Images\learning_challenges\C++\c++_fractals\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lecom\OneDrive\Images\learning_challenges\C++\c++_fractals\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{214033FE-C4BD-3FCB-99E5-8672C0A82D67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\LECOM\ONEDRIVE\IMAGES\LEARNING_CHALLENGES\C++\C++_FRACTALS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/lecom/OneDrive/Images/learning_challenges/C++/c++_fractals -BC:/Users/lecom/OneDrive/Images/learning_challenges/C++/c++_fractals/build --check-stamp-file C:/Users/lecom/OneDrive/Images/learning_challenges/C++/c++_fractals/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

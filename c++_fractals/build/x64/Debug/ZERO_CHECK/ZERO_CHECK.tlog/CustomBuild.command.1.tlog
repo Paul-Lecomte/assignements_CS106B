@@ -1,0 +1,10 @@
+^C:\USERS\LECOM\ONEDRIVE\IMAGES\LEARNING_CHALLENGES\C++\C++_FRACTALS\BUILD\CMAKEFILES\4C553FF4D2B00139F3C58D0EC9372507\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/lecom/OneDrive/Images/learning_challenges/C++/c++_fractals -BC:/Users/lecom/OneDrive/Images/learning_challenges/C++/c++_fractals/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/lecom/OneDrive/Images/learning_challenges/C++/c++_fractals/build/SierpinskiTriangle.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
