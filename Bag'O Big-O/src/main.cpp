@@ -1,4 +1,6 @@
 // Project: Bag'O Big-O
+// We need to combine runs of k algorithms on n inputs.
+// This is a simple implementation of the combine algorithm.
 #include <iostream>
 #include <vector>
 #include <random>
