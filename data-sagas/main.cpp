@@ -6,5 +6,10 @@ void exploreArrays();
 void testTopK();
 
 int main() {
-    // TODO: Add menu or test harness
+    std::cout << "Data Sagas Assignment\n";
+
+    // TODO: Call exploreArrays()
+    // TODO: Call testTopK()
+
+    return 0;
 }

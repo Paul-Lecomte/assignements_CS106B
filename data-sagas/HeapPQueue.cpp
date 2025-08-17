@@ -4,16 +4,16 @@ HeapPQueue::HeapPQueue() {}
 HeapPQueue::~HeapPQueue() {}
 
 void HeapPQueue::enqueue(const DataPoint& value) {
-    // TODO
+    // TODO: implement enqueue
 }
 
 DataPoint HeapPQueue::dequeue() {
-    // TODO
+    // TODO: implement dequeue
     return {"", -1};
 }
 
 bool HeapPQueue::isEmpty() const {
-    // TODO
+    // TODO: implement check
     return true;
 }
 

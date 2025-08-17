@@ -1,5 +1,6 @@
 #include <iostream>
 
 void exploreArrays() {
-    // TODO: Add experiments with arrays
+    std::cout << "Running array experiments...\n";
+    // TODO: implement Part 1 experiments
 }
