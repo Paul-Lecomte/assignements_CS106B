@@ -1,9 +1,7 @@
 #include <iostream>
 #include "HeapPQueue.h"
-
-// Forward declarations
-void exploreArrays();
-void testTopK();
+#include "ExploreArrays.h"
+#include "TopK.h"
 
 int main() {
     std::cout << "Data Sagas Assignment\n";
