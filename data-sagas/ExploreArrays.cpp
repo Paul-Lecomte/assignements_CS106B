@@ -5,7 +5,5 @@ void exploreArrays() {
     // TODO: implement Part 1 experiments
 	// Run experiments on arrays to understand performance and behavior
 
-	void  exploreArrays() {
 
-	}
 }
