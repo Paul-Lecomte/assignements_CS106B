@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 void exploreArrays() {
     std::cout << "Running array experiments...\n";
@@ -8,6 +9,8 @@ void exploreArrays() {
 
 	// Example: Create an array of integers and perform some operations
 	int n = 5;
+	std::vector<int> arr(n);
+
 
 
 
