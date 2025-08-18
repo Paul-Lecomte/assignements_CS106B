@@ -11,7 +11,7 @@ void exploreArrays() {
 	int n = 5;
 	std::vector<int> arr(n);
 
-
-
-
+	for (int i = 0; i < n; i++) {
+		arr[i] = i * i; // Fill the array with squares of indices
+	}
 }
