@@ -4,6 +4,7 @@
 #include "TopK.h"
 
 int main() {
+    // Print a welcome message
     std::cout << "Data Sagas Assignment\n";
     // Step 1: run array experiments
     exploreArrays();
