@@ -16,4 +16,10 @@ void exploreArrays() {
 	}
 
 	// TODO : add timing experiments for growth and resizing
+	std::cout << "Array contents:";
+	for (int i = 0; i < n; i++) {
+		std::cout << " " << arr[i];
+	}
+	std::cout << "\n";
+	std::cout << "Array experiments completed.\n";
 }
